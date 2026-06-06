@@ -26,7 +26,7 @@ jobs:
       
       - name: Run main.py
         env:
-          CHAOXING_USERNAME: ${{ secrets.CHAOXING_USERNAME }}
-          CHAOXING_PASSWORD: ${{ secrets.CHAOXING_PASSWORD }}
-          CHAOXING_COURSE_LIST: ${{ secrets.CHAOXING_COURSE_LIST }}
+          CHAOXING_USERNAME: ${{ 18759721913 }}
+          CHAOXING_PASSWORD: ${{ ye350820 }}
+          CHAOXING_COURSE_LIST: ${{ https://mooc2-ans.chaoxing.com/mooc2-ans/mycourse/stu?courseid=223019451&clazzid=146568902&cpi=427538608&enc=bd329b90a3ad06539b97ef54a37183e4&t=1780735533639&pageHeader=1&v=2&hideHead=0 }}
         run: python main.py -u "$CHAOXING_USERNAME" -p "$CHAOXING_PASSWORD" -l "$CHAOXING_COURSE_LIST"
